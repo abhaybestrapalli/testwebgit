@@ -15,6 +15,7 @@ let n=0;
 let startTime=0;
 let endTime=0;
 let timeDiff=0;
+let numberBalls = 2;
 
 // function to generate random number
 
@@ -194,7 +195,7 @@ EvilCircle.prototype.collisionDetect = function() {
 let balls = [];
 function make(){
   balls = [];
-while(balls.length < 2) {
+while(balls.length < numberBalls) {
   const size = random(10,20);
   let ball = new Ball(
     // ball position always drawn at least one ball width
