@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
+#cong{
+position: absolute;
+width: 100vw;
+  height:  100vh;
+  margin: 0;
+  top: 30%;
+  
+  color: #aaa;
+  font-size :10em;
+  display: none;
+  text-align: center;
+
+
+}
+#tim{
+  width: 100vw;
+  height:  100vh;
+  position: absolute;
+  margin: 0;
+  top: 60%;
+  text-align: center;
+  color: "red";
+  font-size :3em;
+  display: none;
+
+}
+
+button{
+  
+position: absolute;
+  margin: 0;
+  top: 70%;
+  right: 45%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: none;
+
+}
