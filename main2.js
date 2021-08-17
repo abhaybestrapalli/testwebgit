@@ -15,7 +15,7 @@ let n=0;
 let startTime=0;
 let endTime=0;
 let timeDiff=0;
-let numberBalls = 12;
+let numberBalls = 20;
 
 // function to generate random number
 
